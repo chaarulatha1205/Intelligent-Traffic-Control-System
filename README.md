@@ -63,13 +63,37 @@ npm install
 npm run dev
 ```
 
-🎨 Live Metrics
+## 📊 Live Metrics
+
 <div align="center">
-Metric	Description	Sample Value
-Total Vehicles	Real-time vehicle count across all junctions	245
-Average Congestion	Overall traffic congestion percentage	65%
-Active Junctions	Junctions with significant traffic	4
-Signal Status	Color-coded signals per junction	🟢🟡🔴🟢🟡
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 30px 0;">
+
+<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #2563eb;">
+<h3>🚗 Total Vehicles</h3>
+<p>Real-time vehicle count across all junctions</p>
+<h2 style="color: #2563eb; margin: 15px 0;">245</h2>
+</div>
+
+<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #f59e0b;">
+<h3>📈 Average Congestion</h3>
+<p>Overall traffic congestion percentage</p>
+<h2 style="color: #f59e0b; margin: 15px 0;">65%</h2>
+</div>
+
+<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #10b981;">
+<h3>📍 Active Junctions</h3>
+<p>Junctions with significant traffic</p>
+<h2 style="color: #10b981; margin: 15px 0;">4</h2>
+</div>
+
+<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #8b5cf6;">
+<h3>🚦 Signal Status</h3>
+<p>Color-coded signals per junction</p>
+<h2 style="margin: 15px 0; font-size: 24px;">🟢 🟡 🔴 🟢 🟡</h2>
+</div>
+
+</div>
 </div>
 
 🏗️ System Architecture
