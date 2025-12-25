@@ -67,30 +67,34 @@ npm run dev
 
 <div align="center">
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 30px 0;">
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin: 30px 0;">
 
-<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #2563eb;">
-<h3>🚗 Total Vehicles</h3>
-<p>Real-time vehicle count across all junctions</p>
-<h2 style="color: #2563eb; margin: 15px 0;">245</h2>
+<div style="text-align: center; padding: 20px; min-width: 180px;">
+<div style="font-size: 40px;">🚗</div>
+<h3>Total Vehicles</h3>
+<p style="color: #6b7280; margin: 10px 0;">Real-time count</p>
+<div style="font-size: 36px; font-weight: bold; color: #2563eb;">245</div>
 </div>
 
-<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #f59e0b;">
-<h3>📈 Average Congestion</h3>
-<p>Overall traffic congestion percentage</p>
-<h2 style="color: #f59e0b; margin: 15px 0;">65%</h2>
+<div style="text-align: center; padding: 20px; min-width: 180px;">
+<div style="font-size: 40px;">📈</div>
+<h3>Avg Congestion</h3>
+<p style="color: #6b7280; margin: 10px 0;">Overall percentage</p>
+<div style="font-size: 36px; font-weight: bold; color: #f59e0b;">65%</div>
 </div>
 
-<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #10b981;">
-<h3>📍 Active Junctions</h3>
-<p>Junctions with significant traffic</p>
-<h2 style="color: #10b981; margin: 15px 0;">4</h2>
+<div style="text-align: center; padding: 20px; min-width: 180px;">
+<div style="font-size: 40px;">📍</div>
+<h3>Active Junctions</h3>
+<p style="color: #6b7280; margin: 10px 0;">With significant traffic</p>
+<div style="font-size: 36px; font-weight: bold; color: #10b981;">4</div>
 </div>
 
-<div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 25px; border-radius: 12px; border-left: 5px solid #8b5cf6;">
-<h3>🚦 Signal Status</h3>
-<p>Color-coded signals per junction</p>
-<h2 style="margin: 15px 0; font-size: 24px;">🟢 🟡 🔴 🟢 🟡</h2>
+<div style="text-align: center; padding: 20px; min-width: 180px;">
+<div style="font-size: 40px;">🚦</div>
+<h3>Signal Status</h3>
+<p style="color: #6b7280; margin: 10px 0;">Current signals</p>
+<div style="font-size: 30px; margin-top: 10px;">🟢 🟡 🔴 🟢 🟡</div>
 </div>
 
 </div>
