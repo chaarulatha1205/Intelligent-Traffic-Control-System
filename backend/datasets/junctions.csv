@@ -1,0 +1,16 @@
+junction_id,name,type,latitude,longitude,lanes,capacity,pedestrian_crossing,bus_stop
+J000,Intersection 1,roundabout,40.7128,-74.006,4,162,False,True
+J001,Intersection 2,t-junction,40.7128,-73.996,2,114,True,False
+J002,Intersection 3,t-junction,40.7128,-73.986,4,269,False,True
+J003,Intersection 4,intersection,40.7128,-73.976,3,266,True,True
+J004,Intersection 5,t-junction,40.7128,-73.966,2,168,False,False
+J005,Intersection 6,intersection,40.7228,-74.006,4,217,True,True
+J006,Intersection 7,intersection,40.7228,-73.996,4,206,False,True
+J007,Intersection 8,intersection,40.7228,-73.986,4,295,False,True
+J008,Intersection 9,roundabout,40.7228,-73.976,3,275,False,False
+J009,Intersection 10,intersection,40.7228,-73.966,3,127,True,False
+J010,Intersection 11,t-junction,40.732800000000005,-74.006,4,129,False,False
+J011,Intersection 12,t-junction,40.732800000000005,-73.996,4,286,True,False
+J012,Intersection 13,roundabout,40.732800000000005,-73.986,2,196,True,False
+J013,Intersection 14,t-junction,40.732800000000005,-73.976,3,205,True,False
+J014,Intersection 15,t-junction,40.732800000000005,-73.966,3,190,False,False
