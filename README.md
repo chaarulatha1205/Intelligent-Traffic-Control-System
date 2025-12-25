@@ -75,68 +75,85 @@ Signal Status	Color-coded signals per junction	🟢🟡🔴🟢🟡
 🏗️ System Architecture
 <img width="1019" height="793" alt="image" src="https://github.com/user-attachments/assets/3f0f7f02-9a21-4fca-9b1e-039862447e49" />
 
-👥 Development Team
+## 👥 Development Team
+
 <div align="center">
-#	Name	Role	Icon
-01	Chaarulatha J	System Architect	🚦
-02	AKAASH M K	Data Analyst	📊
-03	E. THEERTHA	Frontend Developer	💻
-04	VINYTHA S V	UI/UX Designer	🎨
+
+| # | Name | Role | Icon |
+|---|------|------|------|
+| **01** | **Chaarulatha J** | System Architect | 🚦 |
+| **02** | **AKAASH M K** | Data Analyst | 📊 |
+| **03** | **E. THEERTHA** | Frontend Developer | 💻 |
+| **04** | **VINYTHA S V** | UI/UX Designer | 🎨 |
+
 </div>
 
-🔧 Technical Stack
+---
+
+## 🔧 Technical Stack
+
 <div align="center">
-Layer	Technology
-Frontend	React 18, JavaScript ES6+
-Build Tool	Vite 5
-Styling	CSS3, Flexbox, Grid
-Hosting	Static Deployment
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 18, JavaScript ES6+ |
+| **Build Tool** | Vite 5 |
+| **Styling** | CSS3, Flexbox, Grid |
+| **Hosting** | Static Deployment |
+
 </div>
 
-📱 Responsive Design
+---
+
+## 📱 Responsive Design
+
 <div align="center">
-Device	Layout	Features
-Mobile	Single column	Touch-optimized controls
-Tablet	2-column grid	Enhanced spacing
-Desktop	4-column grid	Full dashboard experience
+
+| Device | Layout | Features |
+|--------|--------|----------|
+| **Mobile** | Single column | Touch-optimized controls |
+| **Tablet** | 2-column grid | Enhanced spacing |
+| **Desktop** | 4-column grid | Full dashboard experience |
+
 </div>
-🎨 Color Scheme
+
+---
+
+## 🎨 Color Scheme
+
 <div align="center">
-Purpose	Color	Hex Code
-Primary	Blue	#2563eb
-Success	Green	#10b981
-Warning	Yellow	#f59e0b
-Danger	Red	#ef4444
-Neutral	Gray	#6b7280
+
+| Purpose | Color | Hex Code |
+|---------|-------|----------|
+| Primary | <span style="color:#2563eb">●</span> Blue | `#2563eb` |
+| Success | <span style="color:#10b981">●</span> Green | `#10b981` |
+| Warning | <span style="color:#f59e0b">●</span> Yellow | `#f59e0b` |
+| Danger | <span style="color:#ef4444">●</span> Red | `#ef4444` |
+| Neutral | <span style="color:#6b7280">●</span> Gray | `#6b7280` |
+
 </div>
-🔄 Usage Guide
-1. View Dashboard
-Open the application in your browser
 
-View real-time traffic metrics
+---
 
-Monitor junction status
+## 🚦 Usage Guide
 
-2. Interact with Controls
-Click "Update Now" for immediate refresh
+### **1. View Dashboard**
+- Open the application in your browser
+- View real-time traffic metrics
+- Monitor junction status
 
-Toggle "Auto-Update" to pause/resume
+### **2. Interact with Controls**
+- Click **"Update Now"** for immediate refresh
+- Toggle **"Auto-Update"** to pause/resume
+- Hover over cards for details
 
-Hover over cards for details
+### **3. Understand Signals**
+- **🟢 Green**: Light traffic (< 40% congestion)
+- **🟡 Yellow**: Moderate traffic (40-70% congestion)
+- **🔴 Red**: Heavy traffic (> 70% congestion)
 
-3. Understand Signals
-🟢 Green: Light traffic (< 40% congestion)
+---
 
-🟡 Yellow: Moderate traffic (40-70% congestion)
+## 📄 License
 
-🔴 Red: Heavy traffic (> 70% congestion)
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🙏 Acknowledgments
-Inspired by real-time traffic management systems
-
-Built with React and Vite
-
-Thanks to the open-source community
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
