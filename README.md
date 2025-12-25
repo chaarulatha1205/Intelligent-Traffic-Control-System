@@ -67,37 +67,13 @@ npm run dev
 
 <div align="center">
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; margin: 30px 0;">
+| Metric | Description | Sample Value | Status |
+|--------|-------------|--------------|--------|
+| **🚗 Total Vehicles** | Real-time vehicle count across all junctions | **245** | <span style="color:#2563eb">● Active</span> |
+| **📈 Average Congestion** | Overall traffic congestion percentage | **65%** | <span style="color:#f59e0b">● Moderate</span> |
+| **📍 Active Junctions** | Junctions with significant traffic | **4** | <span style="color:#10b981">● Live</span> |
+| **🚦 Signal Status** | Color-coded signals per junction | **🟢🟡🔴🟢🟡** | <span style="color:#8b5cf6">● Mixed</span> |
 
-<div style="text-align: center; padding: 20px; min-width: 180px;">
-<div style="font-size: 40px;">🚗</div>
-<h3>Total Vehicles</h3>
-<p style="color: #6b7280; margin: 10px 0;">Real-time count</p>
-<div style="font-size: 36px; font-weight: bold; color: #2563eb;">245</div>
-</div>
-
-<div style="text-align: center; padding: 20px; min-width: 180px;">
-<div style="font-size: 40px;">📈</div>
-<h3>Avg Congestion</h3>
-<p style="color: #6b7280; margin: 10px 0;">Overall percentage</p>
-<div style="font-size: 36px; font-weight: bold; color: #f59e0b;">65%</div>
-</div>
-
-<div style="text-align: center; padding: 20px; min-width: 180px;">
-<div style="font-size: 40px;">📍</div>
-<h3>Active Junctions</h3>
-<p style="color: #6b7280; margin: 10px 0;">With significant traffic</p>
-<div style="font-size: 36px; font-weight: bold; color: #10b981;">4</div>
-</div>
-
-<div style="text-align: center; padding: 20px; min-width: 180px;">
-<div style="font-size: 40px;">🚦</div>
-<h3>Signal Status</h3>
-<p style="color: #6b7280; margin: 10px 0;">Current signals</p>
-<div style="font-size: 30px; margin-top: 10px;">🟢 🟡 🔴 🟢 🟡</div>
-</div>
-
-</div>
 </div>
 
 🏗️ System Architecture
